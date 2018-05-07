@@ -1,12 +1,12 @@
 /*
- * Primary file for API
+ * YS Primary file for API
  *
  */
 
 // Dependencies
 var http = require('http');
 var url = require('url');
-var port = 3001;
+var port = 3000;
 
  // Configure the server to respond to all requests with a string
 var server = http.createServer(function(req,res){
